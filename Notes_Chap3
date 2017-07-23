@@ -1,0 +1,11 @@
+A. App indexing with Firebase: Key Capabilities
+  >Display app in search results
+  >Associates your app & website, app card shows next to your website card
+  >Autocompletion in Google Search
+B. Steps to Set Up Firebase
+  1. Support HTTP URLs in your app
+  2. Add the App Indexing SDK to your app
+  3. Test your implementation
+  4. Track in Google Search Console, which monitors the performance of your app indexing. 
+  
+  
