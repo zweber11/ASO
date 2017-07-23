@@ -7,5 +7,24 @@ B. Steps to Set Up Firebase
   2. Add the App Indexing SDK to your app
   3. Test your implementation
   4. Track in Google Search Console, which monitors the performance of your app indexing. 
-  
+C. Deep linking - Method to take users to a specific location in a mobile app.
+  >Deep links are important, as they attract new users to your app, and provide a better user experience, which helps user retention.
+  >Example: use the <link rel="alternate" href="ios-app://myUniqueAppID/asdf"> tag, which takes them to your app as opposed to another location on your site.
+D. Traditional vs. Deferred Deep Links
+  >Traditional deep linking: Directs users to the content in your app or on your mobile website
+  >Deferred deep linking: Directs users to app store and then to the desired content within your app
+  >How Deferred deep links work 
+    -User clicks deep link, directed to app/play store, installs app, app checks for deep link (SDK DB), deferred link provided to app, app opens to appropriate page/screen with desired content.
+  >Third-Party deep link resources
+     1. Tune www.tune.com
+     2. Branch www.branch.io
+     3. Adjust www.adjust.com
+ E. Smart App Banners
+  >iOS Devices - N/A, as just looking for Android-specific content.
+  >Android - No standard due to fragmentation, but options do exist;
+    1. AppBanners plugin for WordPress, found at: https://wordpress.org/plugins/appbanners/
+    2. Smart App Banner, found at: https://github.com/kudago/smart-app-banner
+    3. smartbanner.js, found at: https://github.com/ain/smartbanner.js
+    4. branch.io, found at: https://branch.io/smart-app-banner/
+  >Benefit from Smart Banners; choose the option that is best for you and your budget, and smart banners use incremental downloads to help your ASO.
   
